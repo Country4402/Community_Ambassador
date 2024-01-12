@@ -1,0 +1,72 @@
+
+.container {
+  font-family: cursive;
+  background-color: antiquewhite;
+  padding: 0px 50px 50px 50px;
+}
+
+
+.btn:hover {
+  color: #daa520;
+}
+
+.offwhite {
+  color: burlywood
+}
+
+.gold {
+  color: #daa520;
+}
+
+.black {
+  color: #343a40;
+}
+
+.hover:hover {
+  color: white;
+}
+
+button {
+  width: 200px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  body {
+    margin: auto;
+  }
+
+  .container {
+    margin: -50px auto;
+    padding: 5px 5px 5px 5px;
+  }
+
+  h1 {
+    font-size: 20px ;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  #linkDiv > a {
+    font-size: 10px
+  }
+
+}

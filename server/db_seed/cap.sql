@@ -1,0 +1,13 @@
+DROP SCHEMA IF EXISTS cap;
+CREATE SCHEMA cap;
+USE cap;
+
+CREATE TABLE rcs (
+  rcName VARCHAR(255) NOT NULL,
+  phone BIGINT
+
+);
+
+INSERT INTO rcs VALUES
+
+("William Erickson",3605941614);
